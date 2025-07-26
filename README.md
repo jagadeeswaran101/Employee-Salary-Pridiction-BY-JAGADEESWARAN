@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# Employee Salary Prediction
 
-## Project info
+A web application for predicting employee salaries using modern web technologies.
 
-**URL**: https://lovable.dev/projects/cc11cc89-cf01-4ec6-85d9-91d699c40e76
+## Project Overview
 
-## How can I edit this code?
+This project provides a user-friendly interface to input employee data and receive salary predictions based on machine learning models. It is built with:
 
-There are several ways of editing your application.
+- **Vite** (for fast development and build)
+- **TypeScript** (for type safety)
+- **React** (for UI)
+- **shadcn-ui** (for accessible and customizable UI components)
+- **Tailwind CSS** (for utility-first styling)
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cc11cc89-cf01-4ec6-85d9-91d699c40e76) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
-**Use your preferred IDE**
+### Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Clone the repository and install dependencies:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Running the Development Server
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Start the development server with hot reloading:
+
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at [http://localhost:5173](http://localhost:5173) by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+To build the app for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```sh
+npm run build
+```
 
-## What technologies are used for this project?
+To preview the production build locally:
 
-This project is built with:
+```sh
+npm run preview
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Linting
 
-## How can I deploy this project?
+To check for code quality issues:
 
-Simply open [Lovable](https://lovable.dev/projects/cc11cc89-cf01-4ec6-85d9-91d699c40e76) and click on Share -> Publish.
+```sh
+npm run lint
+```
 
-## Can I connect a custom domain to my Lovable project?
+## Project Structure
 
-Yes, you can!
+- `src/` - Main source code (components, pages, utils, etc.)
+- `public/` - Static assets
+- `package.json` - Project metadata and scripts
+- `tsconfig.json` - TypeScript configuration
+- `tailwind.config.js` - Tailwind CSS configuration
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+**Employee Salary Prediction**  
+Built with React, TypeScript, Vite, shadcn-ui, and Tailwind
